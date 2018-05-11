@@ -161,7 +161,7 @@ public class MainActivity extends Activity implements
                             .setWhen(System.currentTimeMillis())
                             .setSmallIcon(R.mipmap.yaoxiang)
                             .setContentTitle("健康小常识")
-                            .setContentText("健康指使")
+                            .setContentText("健康知识")
                             .setDefaults(Notification.DEFAULT_LIGHTS| Notification.DEFAULT_SOUND)
                             .setContentIntent(contentIntent)
                             .setContentInfo("Info");
