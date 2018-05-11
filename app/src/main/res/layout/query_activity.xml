@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_margin="3dp"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="药品名称:"
+        android:layout_centerVertical="true"
+
+        />
+    <TextView
+        android:layout_margin="3dp"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+        android:id="@+id/tv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="药品详情:"
+        android:layout_centerVertical="true"
+
+        />
+    <TextView
+        android:layout_margin="3dp"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+        android:id="@+id/tv_useTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用药时间:"
+        android:layout_centerVertical="true"
+
+        />
+    <TextView
+        android:layout_margin="3dp"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+        android:id="@+id/tv_dosage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用药剂量:"
+        android:layout_centerVertical="true"
+
+        />
+
+    <TextView
+        android:layout_margin="3dp"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+        android:id="@+id/tv_taboo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用药禁忌:"
+        android:layout_centerVertical="true"
+
+        />
+    <TextView
+        android:id="@+id/tv_effect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="3dp"
+        android:text="不良反应:"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+
+        />
+    <EditText
+        android:id="@+id/et_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:hint="请输入要查询的药品名称"
+        android:textColorHint="@color/text_nav"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+        />
+    <Button
+        android:text="点击查询"
+        android:id="@+id/bt_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

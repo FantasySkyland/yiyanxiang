@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorTextMain">#DE000000</color>
+    <color name="colorTextSubtitle">#84000000</color>
+    <color name="colorTextWhite">#FFFFFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTextWhiteNoCode">#8AFFFFFF</color>
+    <color name="colorFacebook">#4961A6</color>
+    <color name="colorGoogle">#4285f3</color>
+    <color name="colorPhoneTrue">#3D3D3D</color>
+    <color name="colorBtnNoGetCode">#757575</color>
+    <color name="colorBtnGetCode">#4D4D4D</color>
+    <color name="colorBtnFocusNo">#424F4F4F</color>
+    <color name="colorLine">#f3f3f5</color>
+    <color name="line">#aeaeae</color>
+    <color name="colorMain2">#FF189F</color>
+    <color name="blackTransparent">#66000000</color>
+
+    <!--  大姨妈配色 -->
+    <color name="colorDayNormal">#D8D8D8</color>
+    <color name="colorDaySecurity">#00B0FF</color>
+    <color name="colorDayOvulation">#B353FF</color>
+    <color name="colorDayOvulationDay">#FF9F00</color>
+    <color name="colorDayOther">#FFFFFF</color>
+    <color name="colorMenstrual">#ffdef2</color>
+    <color name="colorDayOvulation2">#E2BCFF</color>
+    <color name="colorDayOvulationDay2">#FFD99A</color>
+
+    <color name="colorTextFunction">#999999</color>
+    <color name="colorTextDialog">#61000000</color>
+    <color name="colorButtonBg">#BDBDBD</color>
+
+    <color name="colorTextWeight">#757575</color>
+    <color name="colorTextTime1">#61000000</color>
+    <color name="colorTextTime2">#00B0FF</color>
+    <color name="colorTextTime3">#DE000000</color>
+    <color name="colorTextTime4">#FFFFFF</color>
+
+    <color name="color0">#C6C6C6</color>
+    <color name="color1">#999999</color>
+    <color name="color2">#666666</color>
+    <color name="color3">#333333</color>
+
+
+    <!-- text color -->
+    <color name="normalText">#333333</color>
+    <color name="highlightText">#ff3c82</color>
+    <color name="greyText">#A6B0BC</color>
+    <!-- text color -->
+
+
+    <!-- weight bmi -->
+    <color name="weight_bmi_level_1">#88e400</color>
+    <color name="weight_bmi_level_2">#64aaff</color>
+    <color name="weight_bmi_level_3">#d962ff</color>
+    <color name="weight_bmi_level_4">#ffb200</color>
+    <color name="weight_bmi_level_5">#ff6b17</color>
+    <color name="weight_bmi_level_6">#cf0000</color>
+    <!-- weight bmi -->
+    <!--community-->
+    <color name="item_community_text_color_red">#ff4c8b</color>
+    <color name="item_community_text_color_gray">#898c98</color>
+    <!--community-->
+    <color name="numberPicker_divider_trans_color">#00ffffff</color>
+    <!--chatList-->
+    <color name="chatListMessageUnreadTip_text" >#ff5a77</color>
+    <color name="chatListMessageChatEnd_text" >#717790</color>
+</resources>

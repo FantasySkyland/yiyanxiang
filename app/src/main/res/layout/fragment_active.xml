@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+                android:background="@drawable/main_bg"
+
+             tools:context="com.example.administrator.italker.ui.fragments.ActiveFragment">
+
+
+    <TextView
+        android:layout_margin="3dp"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="药品名称:"
+        android:layout_centerVertical="true"
+
+        />
+    <TextView
+        android:layout_margin="3dp"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+        android:id="@+id/tv_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="药品详情:"
+        android:layout_centerVertical="true"
+
+        />
+    <TextView
+        android:layout_margin="3dp"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+        android:id="@+id/tv_useTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用药时间:"
+        android:layout_centerVertical="true"
+
+        />
+    <TextView
+        android:layout_margin="3dp"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+        android:id="@+id/tv_dosage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用药剂量:"
+        android:layout_centerVertical="true"
+
+        />
+
+    <TextView
+        android:layout_margin="3dp"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+        android:id="@+id/tv_taboo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用药禁忌:"
+        android:layout_centerVertical="true"
+
+        />
+    <TextView
+        android:id="@+id/tv_effect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_margin="3dp"
+        android:text="不良反应:"
+        android:textColor="@color/textPrimary"
+        android:textSize="@dimen/font_18"
+
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/ref"
+        android:text="刷新药品"
+        android:background="@color/colorDaySecurity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/start"
+        android:text="开始"
+        android:background="@color/colorDaySecurity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/call"
+        android:text="一建呼救"
+        android:background="@color/colorDaySecurity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
