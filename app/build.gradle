@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion '26.0.2'
     defaultConfig {
-        applicationId "com.example.administrator.italker"
+        applicationId 'com.example.administrator.smartsleep'
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
@@ -16,6 +16,8 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    productFlavors {
     }
 }
 
@@ -29,7 +31,6 @@ dependencies {
     compile "com.android.support:appcompat-v7:$rootProject.ext.supportVersion"
     compile project(':common')
     compile "com.android.support:design:$rootProject.ext.supportVersion"
-
     compile "net.qiujuer.genius:ui:$rootProject.ext.geniusVersion"
     compile "net.qiujuer.genius:res:$rootProject.ext.geniusVersion"
     compile "de.hdodenhof:circleimageview:$rootProject.ext.circleimageviewVersion"
@@ -37,10 +38,8 @@ dependencies {
     compile "com.jakewharton:butterknife:$rootProject.ext.butterknifeVersion"
     annotationProcessor "com.jakewharton:butterknife-compiler:$rootProject.ext.butterknifeVersion"
     compile "com.android.support:recyclerview-v7:$rootProject.ext.recyclerViewVersion"
-
     compile "com.yalantis:ucrop:$rootProject.ext.ucropVersion"
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
-
     compile "com.android.support:support-v4:$rootProject.ext.supportVersion"
     testCompile 'junit:junit:4.12'
     //noinspection GradleCompatible

@@ -208,49 +208,5 @@ public class LoginActivity extends Activity implements View.OnClickListener {
         }
     }
 
-//    @BindView(R.id.userName_et)
-//    EditText mUserNameEt;
-//    @BindView(R.id.passWord_et)
-//    EditText mPassWordEt;
-//    @BindView(R.id.login_bt)
-//    Button mLoginBt;
-//    @BindView(R.id.register_bt)
-//    Button mRegisterBt;
-//
-//    @Override
-//    protected int getContentLayoutId() {
-//        return R.layout.activity_login;
-//    }
-//
-//    @Override
-//    protected void initData() {
-//
-//        super.initData();
-//
-//    }
-//
-//    @OnClick({R.id.login_bt, R.id.register_bt})
-//    public void onViewClicked(View view) {
-//        switch (view.getId()) {
-//            case R.id.login_bt:
-//               //判断用户名密码是否正确
-//                if (SpUtils.getString(this,"user",null) ==null){
-//                    Toast.makeText(this,"用户名不存在",Toast.LENGTH_SHORT).show();
-//                }else {
-//                    if (mUserNameEt.getText().toString().equals(SpUtils.getString(this,"user",null))&&
-//                            mPassWordEt.getText().toString().equals(SpUtils.getString(this,"password",null) )  ){
-//                        Intent intent = new Intent(this, MainActivity.class);
-//                        startActivity(intent);
-//                        finish();
-//                    }
-//                }
-//
-//
-//                break;
-//            case R.id.register_bt:
-//                Intent intent2 = new Intent(this, RegisterActivity.class);
-//                startActivity(intent2);
-//                break;
-//        }
-//    }
+
 }

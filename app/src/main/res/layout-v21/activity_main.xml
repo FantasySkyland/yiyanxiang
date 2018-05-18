@@ -14,7 +14,8 @@
         android:layout_height="73dp"
         android:elevation="@dimen/len_2"
         android:outlineProvider="bounds"
-        tools:targetApi="lollipop">
+        tools:targetApi="lollipop"
+        android:visibility="visible">
         <FrameLayout
             android:layout_marginTop="@dimen/statusBarSize"
             android:layout_width="match_parent"
@@ -51,6 +52,7 @@
                 android:foreground="@drawable/ic_touch_menu"
                 android:layout_gravity="end|center_vertical"
                 android:scaleType="centerInside"
+                android:visibility="gone"
                 />
 
         </FrameLayout>
@@ -64,15 +66,6 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:layout_marginBottom="@dimen/len_52">
-        <TextView
-            android:layout_margin="3dp"
-            android:textColor="@color/textPrimary"
-            android:textSize="@dimen/font_18"
-            android:text="药箱温度:"
-            android:id="@+id/temp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
         <FrameLayout
             android:id="@+id/content_layout"
             android:layout_width="match_parent"
@@ -82,6 +75,7 @@
     </LinearLayout>
 
     <net.qiujuer.genius.ui.widget.FloatActionButton
+        android:visibility="gone"
         android:id="@+id/bt_action"
         android:tint="@color/white"
         android:src="@drawable/ic_contact_add"

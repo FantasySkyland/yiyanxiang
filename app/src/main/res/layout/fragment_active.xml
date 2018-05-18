@@ -1,106 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:tools="http://schemas.android.com/tools"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-              android:orientation="vertical"
-                android:background="@drawable/main_bg"
-
-             tools:context="com.example.administrator.italker.ui.fragments.ActiveFragment">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sleep_bg"
+    android:orientation="vertical">
 
 
-    <TextView
-        android:layout_margin="3dp"
-        android:textColor="@color/textPrimary"
-        android:textSize="@dimen/font_18"
-        android:id="@+id/tv_name"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="药品名称:"
-        android:layout_centerVertical="true"
+        android:layout_height="match_parent"
+        android:background="#00000fff"
+        android:orientation="vertical">
 
-        />
-    <TextView
-        android:layout_margin="3dp"
-        android:textColor="@color/textPrimary"
-        android:textSize="@dimen/font_18"
-        android:id="@+id/tv_detail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="药品详情:"
-        android:layout_centerVertical="true"
+        <LinearLayout
+            android:id="@+id/blurBG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#00000fff"
 
-        />
-    <TextView
-        android:layout_margin="3dp"
-        android:textColor="@color/textPrimary"
-        android:textSize="@dimen/font_18"
-        android:id="@+id/tv_useTime"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="用药时间:"
-        android:layout_centerVertical="true"
+            >
 
-        />
-    <TextView
-        android:layout_margin="3dp"
-        android:textColor="@color/textPrimary"
-        android:textSize="@dimen/font_18"
-        android:id="@+id/tv_dosage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="用药剂量:"
-        android:layout_centerVertical="true"
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:background="#00000fff">
 
-        />
+                <FrameLayout
+                    android:id="@+id/ll_nologin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#00000fff"
+                    >
 
-    <TextView
-        android:layout_margin="3dp"
-        android:textColor="@color/textPrimary"
-        android:textSize="@dimen/font_18"
-        android:id="@+id/tv_taboo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="用药禁忌:"
-        android:layout_centerVertical="true"
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/civ_mrtx"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:border_width="2dp"
+                        android:padding="5dp"
+                        app:border_color="@color/colorFacebook"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="26dp"
+                        android:src="@drawable/sleep2"/>
 
-        />
-    <TextView
-        android:id="@+id/tv_effect"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_margin="3dp"
-        android:text="不良反应:"
-        android:textColor="@color/textPrimary"
-        android:textSize="@dimen/font_18"
 
-        />
-    <Button
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:id="@+id/ref"
-        android:text="刷新药品"
-        android:background="@color/colorDaySecurity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <Button
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:id="@+id/start"
-        android:text="开始"
-        android:background="@color/colorDaySecurity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <Button
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:id="@+id/call"
-        android:text="一建呼救"
-        android:background="@color/colorDaySecurity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/tv_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="139dp"
+                        android:maxLines="1"
+                        android:text="ID:Enayeh123"
+                        android:textColor="#898c98"
+                        android:textSize="16dp" />
 
+                    <TextView
+                        android:id="@+id/tv_login"
+                        android:layout_width="152dp"
+                        android:layout_height="58dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="162dp"
+                        android:background="@drawable/personal_login"
+                        android:gravity="center"
+                        android:maxLines="1"
+                        android:text="切换"
+                        android:textColor="@color/colorTextWhite"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                </FrameLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height=".5dp"
+            android:background="#cdced3" />
+        <LinearLayout
+            android:id="@+id/alarm"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/aboutUsRowHeight"
+            android:layout_marginTop="@dimen/personalCenterRowMargin"
+            android:background="#00000fff">
+
+            <ImageView
+                android:layout_width="@dimen/aboutUsRowIconWidth"
+                android:layout_height="@dimen/aboutUsRowIconWidth"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/aboutUsMargin"
+                android:layout_weight="0"
+                android:src="@drawable/personal_alert" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/aboutUsMargin"
+                android:layout_weight="1"
+                android:text="闹钟"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:layout_width="@dimen/aboutUsRowArrowWidth"
+                android:layout_height="@dimen/aboutUsRowArrowHeight"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/aboutUsMargin"
+                android:layout_weight="0"
+                android:src="@drawable/ic_chevron_left_24dp_huise" />
+        </LinearLayout>
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height=".5dp"
+            android:background="#cdced3" />
+    </LinearLayout>
 </LinearLayout>

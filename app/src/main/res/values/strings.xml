@@ -1,5 +1,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">医药箱</string>
+    <string name="app_name">SmartSleep</string>
     <string name="title_connected_to">
         connected to
         <xliff:g id="device_name">%1$s</xliff:g>
