@@ -5,16 +5,15 @@ import android.os.Looper;
 import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.annotation.WorkerThread;
-
-import com.example.zhengdengyao.smartsleep.vilyever.socketclient.SocketClient;
-import com.example.zhengdengyao.smartsleep.vilyever.socketclient.helper.SocketClientAddress;
-import com.example.zhengdengyao.smartsleep.vilyever.socketclient.helper.SocketClientDelegate;
-import com.example.zhengdengyao.smartsleep.vilyever.socketclient.helper.SocketConfigure;
-import com.example.zhengdengyao.smartsleep.vilyever.socketclient.helper.SocketHeartBeatHelper;
-import com.example.zhengdengyao.smartsleep.vilyever.socketclient.helper.SocketPacketHelper;
-import com.example.zhengdengyao.smartsleep.vilyever.socketclient.helper.SocketResponsePacket;
-import com.example.zhengdengyao.smartsleep.vilyever.socketclient.util.IPUtil;
-import com.example.zhengdengyao.smartsleep.vilyever.socketclient.util.StringValidation;
+import com.example.administrator.italker.ui.socketclient.SocketClient;
+import com.example.administrator.italker.ui.socketclient.helper.SocketClientAddress;
+import com.example.administrator.italker.ui.socketclient.helper.SocketClientDelegate;
+import com.example.administrator.italker.ui.socketclient.helper.SocketConfigure;
+import com.example.administrator.italker.ui.socketclient.helper.SocketHeartBeatHelper;
+import com.example.administrator.italker.ui.socketclient.helper.SocketPacketHelper;
+import com.example.administrator.italker.ui.socketclient.helper.SocketResponsePacket;
+import com.example.administrator.italker.ui.socketclient.util.IPUtil;
+import com.example.administrator.italker.ui.socketclient.util.StringValidation;
 
 import java.io.IOException;
 import java.lang.ref.WeakReference;
@@ -96,8 +95,8 @@ public class SocketServer implements SocketClientDelegate {
     }
 
     /**
-     * ×¢²á¼àÌý»Øµ÷
-     * @param delegate »Øµ÷½ÓÊÕÕß
+     * ×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½
+     * @param delegate ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
      */
     public SocketServer registerSocketServerDelegate(SocketServerDelegate delegate) {
         if (!getSocketServerDelegates().contains(delegate)) {
@@ -107,8 +106,8 @@ public class SocketServer implements SocketClientDelegate {
     }
 
     /**
-     * È¡Ïû×¢²á¼àÌý»Øµ÷
-     * @param delegate »Øµ÷½ÓÊÕÕß
+     * È¡ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½
+     * @param delegate ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
      */
     public SocketServer removeSocketServerDelegate(SocketServerDelegate delegate) {
         getSocketServerDelegates().remove(delegate);
@@ -172,7 +171,7 @@ public class SocketServer implements SocketClientDelegate {
     }
 
     /**
-     * Í³Ò»ÅäÖÃÄ¬ÈÏµÄ±àÂë¸ñÊ½
+     * Í³Ò»ï¿½ï¿½ï¿½ï¿½Ä¬ï¿½ÏµÄ±ï¿½ï¿½ï¿½ï¿½Ê½
      */
     private String charsetName;
     public SocketServer setCharsetName(String charsetName) {

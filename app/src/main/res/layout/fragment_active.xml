@@ -45,7 +45,7 @@
                         app:border_color="@color/colorFacebook"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="26dp"
-                        android:src="@drawable/sleep2"/>
+                        android:src="@drawable/icon_a"/>
 
 
                     <TextView
@@ -126,7 +126,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/aboutUsRowHeight"
             android:layout_marginTop="@dimen/personalCenterRowMargin"
-            android:background="@color/colorWhite">
+            android:background="#00000fff">
 
             <ImageView
                 android:layout_width="@dimen/aboutUsRowIconWidth"

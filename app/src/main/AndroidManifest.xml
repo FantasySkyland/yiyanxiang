@@ -37,9 +37,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activity.RegisterActivity"></activity>
+        <activity android:name=".ui.activity.RegisterActivity"/>
         <activity android:name=".ui.fragments.AlarmActivity" />
-        <activity android:name=".ui.activity.AudioActivity"></activity>
+        <activity android:name=".ui.activity.AudioActivity"/>
     </application>
 
 </manifest>

@@ -57,6 +57,7 @@ public class GroupFragment extends Fragment {
     @Override
     protected void initData() {
         super.initData();
+        sendRequestWithHttpURLConnection();
     }
 
     private void sendRequestWithHttpURLConnection() {

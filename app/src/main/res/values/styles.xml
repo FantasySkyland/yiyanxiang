@@ -12,10 +12,11 @@
 
     <style name="AppTheme.TransStatusBar.Base" parent="AppTheme">
         <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsTranslucent">false</item>
         <item name="android:windowAnimationStyle">@null</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowFrame">@null</item>
+        <item name="android:windowDisablePreview">true</item>
     </style>
 
     <style name="AppTheme.TransStatusBar" parent="AppTheme.TransStatusBar.Base" />

@@ -23,7 +23,7 @@ import java.util.List;
 
 public class AudioListView extends RecyclerView {
     private static final int LOADER_ID = 0x0200;
-    private static final int MIN_IMAGE_FILE_SIZE = 10 * 1024; // 最小的图片大小
+    private static final int MIN_IMAGE_FILE_SIZE = 1024 * 1024; // 最小的音乐大小
     private LoaderCallback mLoaderCallback = new LoaderCallback();
     private Adapter mAdapter = new Adapter();
     private List<Audio> mSelectedAudios = new LinkedList<>();
@@ -210,6 +210,54 @@ public class AudioListView extends RecyclerView {
         String name; //音乐名字
         String artist; //歌手
         boolean isSelect;
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public String getPath() {
+            return path;
+        }
+
+        public void setPath(String path) {
+            this.path = path;
+        }
+
+        public long getDate() {
+            return date;
+        }
+
+        public void setDate(long date) {
+            this.date = date;
+        }
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public String getArtist() {
+            return artist;
+        }
+
+        public void setArtist(String artist) {
+            this.artist = artist;
+        }
+
+        public boolean isSelect() {
+            return isSelect;
+        }
+
+        public void setSelect(boolean select) {
+            isSelect = select;
+        }
 
         @Override
         public boolean equals(Object o) {

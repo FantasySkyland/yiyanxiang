@@ -26,7 +26,8 @@ public class ActiveFragment extends Fragment {
     TextView mTvLogin;
     @BindView(R.id.alarm)
     LinearLayout mAlarm;
-
+    @BindView(R.id.music)
+    LinearLayout music;
     @Override
     protected void initData() {
         super.initData();
@@ -40,7 +41,7 @@ public class ActiveFragment extends Fragment {
         StatusBarUtils.statusbar(getActivity());
     }
 
-    @OnClick({R.id.tv_id, R.id.tv_login, R.id.alarm})
+    @OnClick({R.id.tv_id, R.id.tv_login, R.id.alarm,R.id.music})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.tv_id:
@@ -50,9 +51,8 @@ public class ActiveFragment extends Fragment {
                 break;
             case R.id.alarm:
                AlarmActivity.start(getActivity());
-
+               break;
             case R.id.music:
-
                 AudioActivity.start(getActivity());
                 break;
         }
