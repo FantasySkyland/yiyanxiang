@@ -121,5 +121,39 @@
             android:layout_width="match_parent"
             android:layout_height=".5dp"
             android:background="#cdced3" />
+        <LinearLayout
+            android:id="@+id/music"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/aboutUsRowHeight"
+            android:layout_marginTop="@dimen/personalCenterRowMargin"
+            android:background="@color/colorWhite">
+
+            <ImageView
+                android:layout_width="@dimen/aboutUsRowIconWidth"
+                android:layout_height="@dimen/aboutUsRowIconWidth"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/aboutUsMargin"
+                android:layout_weight="0"
+                android:src="@drawable/music" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/aboutUsMargin"
+                android:layout_weight="1"
+                android:text="音乐"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+
+            <ImageView
+                android:layout_width="@dimen/aboutUsRowArrowWidth"
+                android:layout_height="@dimen/aboutUsRowArrowHeight"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/aboutUsMargin"
+                android:layout_weight="0"
+                android:src="@drawable/ic_chevron_left_24dp_huise" />
+        </LinearLayout>
     </LinearLayout>
 </LinearLayout>

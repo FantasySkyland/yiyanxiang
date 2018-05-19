@@ -29,11 +29,11 @@ task clean(type: Delete) {
 }
 ext{
     // 版本号相关
-    versionCode = 1;
+    versionCode = 1
     versionName = '1.0.0'
 
     // 相关依赖库版本
-    supportVersion = '26.1.0'
+    supportVersion = '27.1.0'
     butterknifeVersion = '8.8.1'
     recyclerViewVersion = '26.0.0-alpha1'
 

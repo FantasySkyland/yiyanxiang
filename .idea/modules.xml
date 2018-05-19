@@ -3,9 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://G:\Android\smartsleep2\app\app.iml" filepath="G:\Android\smartsleep2\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://G:\Android\smartsleep2\common\common.iml" filepath="G:\Android\smartsleep2\common\common.iml" />
       <module fileurl="file://$PROJECT_DIR$/lang/lang.iml" filepath="$PROJECT_DIR$/lang/lang.iml" />
-      <module fileurl="file://$PROJECT_DIR$/yiyaoxiang.iml" filepath="$PROJECT_DIR$/yiyaoxiang.iml" />
+      <module fileurl="file://G:\Android\smartsleep2\lang\lang.iml" filepath="G:\Android\smartsleep2\lang\lang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/smartsleep2.iml" filepath="$PROJECT_DIR$/.idea/smartsleep2.iml" />
+      <module fileurl="file://G:\Android\smartsleep2\yiyaoxiang.iml" filepath="G:\Android\smartsleep2\yiyaoxiang.iml" />
     </modules>
   </component>
 </project>

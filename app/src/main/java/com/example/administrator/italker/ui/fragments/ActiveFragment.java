@@ -49,7 +49,10 @@ public class ActiveFragment extends Fragment {
                 LoginActivity.start(getActivity());
                 break;
             case R.id.alarm:
-               // AlarmActivity.start(getActivity());
+               AlarmActivity.start(getActivity());
+
+            case R.id.music:
+
                 AudioActivity.start(getActivity());
                 break;
         }
