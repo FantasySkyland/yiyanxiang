@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="action_home">主界面</string>
-    <string name="action_group">药箱管理</string>
+    <string name="action_group">传感器</string>
     <string name="action_contact">健康</string>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="title_home">主界面</string>
-    <string name="title_group">药箱管理</string>
+    <string name="title_group">传感器</string>
     <string name="title_contact">健康</string>
     <string name="title_select_gallery">选择照片</string>
 </resources>

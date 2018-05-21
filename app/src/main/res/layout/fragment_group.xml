@@ -31,4 +31,15 @@
         android:textColor="@color/black"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/send"
+        android:text="发送数据"
+        android:textSize="23dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
